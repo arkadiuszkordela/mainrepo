@@ -32,8 +32,8 @@ zyskna100 = koszty / x + 100
 zysknaproc = (koszty / x) * o_procent
 
 print("Cena biletu dla jednego klienta przy wyjściu na 0:", "%.2f" % zyskna0)
-print("Cena biletu dla jednego klienta przy zysku 100 PLN:", "%.2f" % zyskna100)
-print(("Cena biletu dla jednego klienta przy zysku"), procent, ("%:"), "%.2f" % zysknaproc) 
+print("Cena biletu dla jednego klienta przy zysku 100 PLN na jednym kliencie:", "%.2f" % zyskna100)
+print(("Cena biletu dla jednego klienta przy zysku"), procent, ("% na jednym kliencie:"), "%.2f" % zysknaproc) 
 print(" ")
               
 if (koszty > budzet):
@@ -45,7 +45,7 @@ elif (budzet > koszty):
     print(" ")
 
 budzetna100 = (budzet - koszty) + (zyskna100 * x)
-budzetnaproc = (budzet - koszty) + (zysknaproc * x) 
+budzetnaproc = (budzet - koszty) + (zysknaproc * x)
 
 print("Budżet po rajdzie przy zysku 100 PLN:", "%.2f" % budzetna100)
 print(("Budżet po rajdzie przy zysku"), procent, ("%:"), "%.2f" % budzetnaproc)
