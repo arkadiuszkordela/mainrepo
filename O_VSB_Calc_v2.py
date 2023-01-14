@@ -367,7 +367,7 @@ class MainWindow:
 
         root.mainloop()
         pass
-        
+#Main root values:        
     budget = int() 
     profit = int() 
     customers = int() 
