@@ -7,3 +7,5 @@ print("Why these bad things are on my screen!?")
 print("I don't want them! Help me to delete them!")
 
 print("Why json's settings does not works here on my code spaces? I don't like it.")
+
+print("Another test on GitHub!")
