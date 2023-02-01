@@ -14,5 +14,3 @@ y = [50, 13, 50]
 
 for x in y:
     print(x)
-
-print("Added text for repo!")
