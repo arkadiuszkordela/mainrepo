@@ -1,1 +1,9 @@
 print("First exercise on GitHub test.")
+
+print("Why these bad things are on my screen!?")
+
+#list.append(10)
+
+print("I don't want them! Help me to delete them!")
+
+print("Why json's settings does not works here on my code spaces? I don't like it.")
