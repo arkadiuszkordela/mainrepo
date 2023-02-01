@@ -9,3 +9,8 @@ print("I don't want them! Help me to delete them!")
 print("Why json's settings does not works here on my code spaces? I don't like it.")
 
 print("Another test on GitHub!")
+
+y = [50, 13, 50]
+
+for x in y:
+    print(x)
