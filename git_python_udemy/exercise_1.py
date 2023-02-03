@@ -43,3 +43,14 @@ jane = {
     'age': 25,
     'skills': ['Python', 'Java']
 }
+
+def skills(list):
+    for value in list:
+        if value == "Python":
+            print("Python ok!")
+        elif value == "JavaScript":
+            print("JavaScript ok!")
+        elif value != "Python":
+            print("No matter skill.")
+        elif value != "JavaScript":
+            print("No matter skill.")
