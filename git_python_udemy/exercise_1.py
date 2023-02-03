@@ -25,6 +25,9 @@ print(any(numbers_2))
 
 def eve_nr(list):
     return any([number % 2 == 0 for number in list])
+
+print(eve_nr(number_list_1))
+print(eve_nr(number_list_2))
 ### Method 3. /\
 
 # In this exercise I have to point who from that two persons below can Python and JavaScript.
