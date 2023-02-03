@@ -1,7 +1,7 @@
 # It is a exercise where I have to point the lists with a least one even number.
 
 print(' ')
-print('***************************')
+print('*************************** E1 M1')
 print(' ')
 
 number_list_1 = [3, 5, 10, 13, 17]
@@ -19,7 +19,7 @@ print(even_number(number_list_2))
 ### Method 1. /\
 
 print(' ')
-print('**********')
+print('********** M2')
 print(' ')
 
 numbers_1 = [number % 2 == 0
@@ -32,7 +32,7 @@ print(any(numbers_2))
 ### Method 2. /\
 
 print(' ')
-print('**********')
+print('********** M3')
 print(' ')
 
 def eve_nr(list):
@@ -45,7 +45,7 @@ print(eve_nr(number_list_2))
 # In this exercise I have to point who from that two persons below can Python and JavaScript.
 
 print(' ')
-print('***************************')
+print('*************************** E2 M1')
 print(' ')
 
 john = {
@@ -83,7 +83,19 @@ print(skills(jane['skills']))
 ### Method 1. /\
 
 print(' ')
-print('**********')
+print('********** M2')
+print(' ')
+        
+def check_skills(person, skills):
+    return all(skill in person['skills'] for skill in skills)
+
+required_skills = ['Python', 'JavaScript']
+
+print('John:')
+print(check_skills(john, required_skills))
+
 print(' ')
 
-
+print('Jane:')
+print(check_skills(jane, required_skills))
+### Method 2. /\
