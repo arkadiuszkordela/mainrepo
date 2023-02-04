@@ -2,10 +2,32 @@
 
 import random
 
-cardList = ["9", "9", "9", "9",
-            "10", "10", "10", "10",
-            "Jack", "Jack", "Jack", "Jack",
-            "Queen", "Queen", "Queen", "Queen",
-            "King", "King", "King", "King",
-            "Ace", "Ace", "Ace", "Ace",
-            "Joker", "Joker"]
+card_list = ["9(a)", "9(b)", "9(c)", "9(d)",
+            "10(a)", "10(b)", "10(c)", "10(d)",
+            "Jack(a)", "Jack(b)", "Jack(c)", "Jack(d)",
+            "Queen(a)", "Queen(b)", "Queen(c)", "Queen(d)",
+            "King(a)", "King(b)", "King(c)", "King(d)",
+            "Ace(a)", "Ace(b)", "Ace(c)", "Ace(d)",
+            "Joker(a)", "Joker(b)"]
+
+shuffle_cards = random.shuffle(card_list)
+
+original_length = len(card_list)
+
+player_one = []
+player_two = []
+
+
+for x in random.sample(range(len(original_length)), 5):
+    player_one.append(card_list.pop(x))
+
+print(' ')
+print('Player one cards:')
+print(player_one)
+
+for x in random.sample(range(len(card_list)), 5):
+    player_two.append(card_list.pop(x))
+
+print(' ')
+print('Player two cards:')
+print(player_two)
