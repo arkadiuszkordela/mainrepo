@@ -42,7 +42,7 @@ while game_length > 0:
             elif (drawn_color == colors.black):
                 print('Your chest is black. There is a 200 gold coins inside')
             elif (drawn_color == colors.blue):
-                print('Your chest is black. There is a 500 gold coins inside')                                                                        
+                print('Your chest is blue. There is a 500 gold coins inside')                                                                        
         elif (drawn_event == events.nothing):
             print('You found nothing!')
     else:
