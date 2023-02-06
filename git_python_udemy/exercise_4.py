@@ -12,21 +12,18 @@ card_list = ["9(a)", "9(b)", "9(c)", "9(d)",
 
 shuffle_cards = random.shuffle(card_list)
 
-original_length = len(card_list)
-
 player_one = []
 player_two = []
 
-
-for x in random.sample(range(len(original_length)), 5):
+for x in random.sample(range(5), 5):
     player_one.append(card_list.pop(x))
+
+for x in random.sample(range(5), 5):
+    player_two.append(card_list.pop(x))
 
 print(' ')
 print('Player one cards:')
 print(player_one)
-
-for x in random.sample(range(len(card_list)), 5):
-    player_two.append(card_list.pop(x))
 
 print(' ')
 print('Player two cards:')
