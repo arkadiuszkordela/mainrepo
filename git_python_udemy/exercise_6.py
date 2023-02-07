@@ -1,4 +1,4 @@
-# In this exercise I have to load names and surnames from a file. Nest I have to separate names and surnames and save them in different files.
+# In this exercise I have to load names and surnames from a file. Next I have to separate names and surnames and save them in different files.
 
 names_and_surnames = []
 
