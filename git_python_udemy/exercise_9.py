@@ -14,12 +14,12 @@ def check_website(url):
     except:
         return False
 
-with open(opened_file, "r") as file:
+with open(opened_file, 'r') as file:
     for line in file:
         url = line.strip()
         if check_website(url):
-            print(f"{url} is up and running")
+            print(f'{url} is up and running')
         else:
-            print(f"{url} is down")
+            print(f'{url} is down')
 
 # It works but I have no idea why third website is as a "down" because it exist and works well in real. 
