@@ -22,4 +22,4 @@ with open(opened_file, "r") as file:
         else:
             print(f"{url} is down")
 
-# It works but I have no idea why third website is as a "down" because she exist and works well in real. 
+# It works but I have no idea why third website is as a "down" because it exist and works well in real. 
