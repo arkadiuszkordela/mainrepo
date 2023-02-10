@@ -1,4 +1,4 @@
-import Bank
+from bank_cls import Bank
 
 print('Welcome in a bank application.')
 print(' ')
