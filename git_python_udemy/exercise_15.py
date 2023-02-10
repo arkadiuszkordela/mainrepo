@@ -1,3 +1,5 @@
+# In this exercise I have to create a program to create a bank account, make deposit and withdraw and show a balance of a account.
+
 from bank_cls import Bank
 
 print('Welcome in a bank application.')
