@@ -116,7 +116,7 @@ class MainWindow:
     def bclick7(self):
         root = Tk()
         root.title("VSB Calc v2")
-        root.iconbitmap("vsb_calc_v2/icon.ico")
+        root.iconbitmap("vsb_calc/icon.ico")
         root.geometry("1200x600")
         root.config(bg = "black")
 
@@ -230,7 +230,7 @@ class MainWindow:
             def bclick7(self):
                 root = Tk()
                 root.title("VSB Calc v2")
-                root.iconbitmap("vsb_calc_v2/icon.ico")
+                root.iconbitmap("vsb_calc/icon.ico")
                 root.geometry("1200x600")
                 root.config(bg = "black")
 
