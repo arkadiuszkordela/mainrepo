@@ -1,3 +1,5 @@
+#The application was created only for testing. It is not fair and illegal to use it for commercial purposes!
+
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
